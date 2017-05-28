@@ -1,0 +1,17 @@
+-- new
+-- name
+-- seconds per frame
+-- start tile
+-- number of tiles
+
+new
+still
+1
+0
+1
+
+new
+firing
+.05
+1
+3

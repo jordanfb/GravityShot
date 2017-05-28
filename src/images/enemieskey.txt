@@ -1,0 +1,105 @@
+-- new
+-- name
+-- seconds per frame
+-- start tile
+-- number of tiles
+
+
+-- the ball!
+new
+ballSteady
+1
+8
+1
+
+new
+ballRight
+.05
+8
+10
+
+mirror
+ballLeft
+ballRight
+
+-- this is a temp thing for death!
+switch
+dead
+ballDying
+.075
+18
+3
+
+-- for dead it'll be invisible anyways, so it shouldn't matter
+-- currently I'm just having everything go to this one death, because why not...
+new
+balldead
+1
+20
+1
+
+
+-- the crawler!
+
+new
+crawlerSteady
+1
+0
+1
+
+new
+crawlerRight
+.05
+0
+5
+
+mirror
+crawlerLeft
+crawlerRight
+
+-- this is a temp thing for death!
+switch
+dead
+crawlerDying
+.1
+5
+3
+
+new
+crawlerdead
+1
+7
+1
+
+
+-- then the spitter:
+
+new
+spitterSteady
+1
+24
+1
+
+-- this will really switch to spitter steady because of how I'm going to hack it.
+switch
+Steady
+spitterSpit
+.05
+24
+10
+
+-- this is a temp thing for death!
+switch
+dead
+spitterDying
+.1
+34
+3
+
+new
+spitterdead
+1
+36
+1
+
+

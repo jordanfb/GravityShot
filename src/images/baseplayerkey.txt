@@ -1,0 +1,43 @@
+-- new
+-- name
+-- seconds per frame
+-- start tile
+-- number of tiles
+
+new
+steady
+.25
+0
+2
+
+new
+walkRight
+.05
+1
+14
+
+mirror
+walkLeft
+walkRight
+
+-- this is a temp thing for death!
+switch
+dead
+dying
+5
+0
+1
+
+-- for dead it'll be invisible anyways, so it shouldn't matter
+new
+dead
+1
+0
+1
+
+-- this is just to make the quads easily so that I can get them for the animation
+new
+loadingin
+1
+25
+19

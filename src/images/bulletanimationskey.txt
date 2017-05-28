@@ -1,0 +1,49 @@
+-- new/mirror/switch/mirrorswitch
+-- name
+-- seconds per frame
+-- start tile
+-- number of tiles
+
+new
+still
+1
+0
+1
+
+-- for the switch ones, put switch, the thing to switch to, then its name, then continue
+switch
+dead
+exploding
+.1
+1
+4
+
+new
+dead
+-- so that we don't error on things! yay!
+1
+0
+1
+
+new
+stillplant
+1
+8
+1
+
+switch
+dead
+explodingplant
+.1
+1
+4
+--.1
+--9
+--4
+
+new
+deadplant
+-- so that we don't error, still
+1
+8
+1
